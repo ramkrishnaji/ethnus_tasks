@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: rgb(233, 229, 229);
+            width: 35%;  
+        }
+        
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul li a:before {
+        content: " | ";
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <p>Click any of the following links</p>
+        <ul>
+         <li>
+                <a href="https://www.google.com/" target="_blank">Opens in new</a>
+                <a href="https://www.mozilla.com/" target="_self">Opens in self</a>
+                <a href="https://www.amazon.com/" target="_parent">Opens in Parent</a>
+                <a href="https://www.flipkart.com/" target="_top">Opens in Body</a>
+                <a href="mailto:xyz@gmail.com">Send email</a>
+
+        </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
